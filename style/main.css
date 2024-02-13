@@ -1,0 +1,62 @@
+body  {
+    font-family: Arial, sans-serif; /* Set the font family */
+	font-size: 18px; /* Set the font size */
+}
+
+.site-title {
+	color: red; /* Change the color of the text */
+}
+
+h1{
+    font-size: 60;
+}
+
+h2{
+    background-color: lightskyblue;
+    width: 200px;
+    border: 3px;
+}
+
+footer{
+    background-color: lightcyan;
+    text-align:justify;
+    font-size:small;
+}    
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+ul{
+    list-style: none;
+}
+
+.My-Hobbies li::before{
+    content: " ";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin-right: 5px;
+}
+
+.My-Hobbies li:nth-child(odd) {
+  background-color: pink
+}
+
+nav ul {
+    list-style: none;
+}
+
+.nav {
+    display: inline-block;
+    text-decoration: none;
+    background-color: lightpink;
+    border: 1px solid goldenrod;
+    padding: 5px;
+}
+
+.nav:hover, .nav:focus {
+    display: inline-block;
+    background-color: red;
+}
